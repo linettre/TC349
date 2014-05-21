@@ -1,11 +1,12 @@
 /*UNDER CONSTRUCTION LOLOLOLO*/
 
 p{
+	text-align: center;
 	font-family:"Arial";
-	font-size:12;
+	font-size:large;
 } 
-
+h2{ color:red; text-size:xx-large; text-align: center;
+}
 h1{
-	font-size: x-large;
-	font-family: Arial;	
+	color:orange; text-align: center;	text-decoration:underline;	font-size: x-large;	font-family: Helvetica;
 }
