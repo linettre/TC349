@@ -5,7 +5,7 @@ p{
 	font-family:"Arial";
 	font-size:large;
 } 
-h2{ color:red; text-size:xx-large; text-align: center;
+h2{ color:red; text-align: center;	text-decoration:underline;	font-size: xx-large;	font-family: Helvetica;
 }
 h1{
 	color:orange; text-align: center;	text-decoration:underline;	font-size: x-large;	font-family: Helvetica;
