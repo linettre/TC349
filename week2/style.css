@@ -5,11 +5,11 @@ p{
 	font-family:"Arial";
 	font-size:large;
 } 
-h2{ color:#1b1464; text-align: center;	font-size: xx-large;	font-family: Impact;
+h2{ color:#1b1464; text-align: left;	font-size: xx-large;	font-family: Impact;
 }
 h1{
-	color:1b1464; text-align: center;	font-size: x-large;	font-family: Impact;
+	color:#1b1464; text-align: left;	font-size: x-large;	font-family: Impact;
 }
 banner{
-	color:white; text-align: left;	font-size: 38;	font-family: Impact;
+	color:white; text-align: left;	font-size: 38pt;	font-family: Impact;
 }
