@@ -120,8 +120,9 @@ h1,h2,p{
 #map-location{
 	background:#f3f3f3;
 	background-position:center;
-	background-image:url("../img/mapbw.jpg");
+
 	height:250px;
+	transition: background-image 1s;
 }
 nav{
 	float:left;
