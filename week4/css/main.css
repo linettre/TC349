@@ -105,10 +105,12 @@ header{
 	padding:40px;
 }
 h1{
+	font-family:Arial, Helvetica, sans-serif;
 	padding-top:430px;
 	color:#FFF;
 }
 h2{
+	font-family:Arial, Helvetica, sans-serif;
 	font-weight:normal;
 	color:#FFF;
 	}
@@ -131,7 +133,11 @@ nav{
 article{
 	margin-left:300px;
 }
-
+img{
+	height:120px;
+	width:100px;
+	padding:10px;
+}
 
 
 
