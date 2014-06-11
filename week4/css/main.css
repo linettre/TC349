@@ -101,21 +101,33 @@ body{
 }
 header{
 	background:url(../img/thebat.jpg);
-	height:582px;
-	width:100%;
-	padding:0px;
+	height:502px;
+	padding:40px;
 }
 h1{
-	padding-top:500px;
+	padding-top:430px;
+	color:#FFF;
 }
 h2{
 	font-weight:normal;
-	}
-h1,h2{
-	margin:0;
 	color:#FFF;
-}
+	}
+h1,h2,p{
+	margin:0;
 
+	
+}
+#map-location{
+	background:#e3e3e3;
+	padding:40px;
+}
+nav{
+	float:left;
+	width:250px;
+}
+article{
+	margin-left:300px;
+}
 
 
 
