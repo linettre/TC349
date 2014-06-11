@@ -96,6 +96,25 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+	border-top:10px solid #424242;
+}
+header{
+	background:url(../img/thebat.jpg);
+	height:582px;
+	width:100%;
+	padding:0px;
+}
+h1{
+	padding-top:500px;
+}
+h2{
+	font-weight:normal;
+	}
+h1,h2{
+	margin:0;
+	color:#FFF;
+}
 
 
 
