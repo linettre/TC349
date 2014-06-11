@@ -118,8 +118,10 @@ h1,h2,p{
 	
 }
 #map-location{
-	background:#e3e3e3;
-	padding:40px;
+	background:#f3f3f3;
+	background-position:center;
+	background-image:url("../img/mapbw.jpg");
+	height:250px;
 }
 nav{
 	float:left;
