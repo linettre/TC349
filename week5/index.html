@@ -26,8 +26,8 @@
     <div id="map-location" data-0="background-image:url(img/mapbw.jpg);opacity:.5;" data-500="background-image:url(img/mapcolor.jpg);opacity:1;" data-800="opacity:.5;">
 
     </div>
-    <nav>
-   		<ul>
+    <nav data-0="position:absolute;top:800px;" data-800="position:absolute;top:800px;" data-1500="position:absolute;top:1550px;">
+   		<ul >
         <li><a href="#about">About</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#videos">Videos</a></li>
@@ -75,7 +75,8 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 		<script type="text/javascript">
-        	var s = skrollr.init();
+        if($(window).width() > 600){
+            var s = skrollr.init();
             skrollr.menu.init(s, {
     //skrollr will smoothly animate to the new position using `animateTo`.
     animate: true,
@@ -90,7 +91,9 @@
     duration: function(currentTop, targetTop) {
         return 500;
         }
-});
+    
+	});
+}
         </script>
       
     </body>
