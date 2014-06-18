@@ -288,7 +288,11 @@ These examples override the primary ('mobile first') styles.
 Modify as content requires.
 ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media (max-width: 600px) {
+	nav{
+		float:none;
+		width:auto;
+	}
     /* Style adjustments for viewports that meet the condition */
 }
 
