@@ -296,6 +296,13 @@ Modify as content requires.
 	article{
 		margin:20px;
 	}
+
+	/*
+	
+	^^^Tried to fix map, couldn't figure it out. Something with the if statement seems off.
+	*/
+	}
+
     /* Style adjustments for viewports that meet the condition */
 }
 
