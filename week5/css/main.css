@@ -293,6 +293,9 @@ Modify as content requires.
 		float:none;
 		width:auto;
 	}
+	article{
+		margin:20px;
+	}
     /* Style adjustments for viewports that meet the condition */
 }
 
