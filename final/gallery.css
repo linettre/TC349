@@ -131,7 +131,7 @@ h1 a, h2 a, h3 a {
 	padding: 0px 0px 0 0px;
 	background: #FFFFFF;
 	border: 5px solid #ffffff;
-	border-top: none;
+
 }
 
 
@@ -139,82 +139,22 @@ h1 a, h2 a, h3 a {
 
 
 #content {
-	width: 845px;
+	width: 1140px;
 	padding: 0px 0px 0px 10px;
 
 }
 
-#content li img{
-
-	border:5px solid white;
-	padding:5px grey;
+.gallery li {
+	border: 5px solid #fff;
+	box-shadow: 0 0 10px #999999;
+	padding:4px;
 	display:block;
 	float:left;
+	transition: border-color 1s;
 }
 
-
-.links {
-	float: left;
-}
-
-.links ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-
-
-
-
-
-
-
-#links {
-	float:left;
-	width: 230px;
-	padding: 0px 10px 10px 10px;
-	background-color: white;
-	box-shadow: 0 0 10px #ccc;
-	
-	color: #333;
-	
-}
-
-#links li h2 {
-	text-align:center;
-	margin: 0 0 5px 0;
-	text-color:#333333;
-	padding: 5px 0  0 5px;
-	height: 20px;
-	
-}
-
-
-#links li li {
-	border-top:1px solid #e3e3e3;
-	padding: 5px;
-	background-color:brown;
-	font-size: 14pt;
-
-}
-#links li li:hover {
-	background-color:white;
-	transition: background-color .8s;
-	box-shadow: 0 0 10px #ccc;
-
-
-}
-
-#links li li:hover a {
-	color:#2C2E22;
-
-}
-
-#links li a {
-	border: none;
-	padding-left: 10px;
-	color:white;
+.gallery li:hover{
+	border-color:#aeccf9;
 }
 
 
