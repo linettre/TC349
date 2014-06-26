@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>Home</title>
+<title>Gallery</title>
 <link href="gallery.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
@@ -14,25 +14,39 @@
 <div id="header">
 	<div id="menu">
 		<ul>
-			<li ><a href="#">Home</a></li>
+			<li ><a href="index.html">Home</a></li>
 			<li class="current_page_item"><a href="#">Gallery</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li><a href="fun.html">Cool/Fun</a></li>
 		</ul>
 	</div>
 </div>
+<!------------Highslide Javscript stuffs----------------------------->
+<script type="text/javascript" src="js/hs/highslide.js"></script>
+<script type="text/javascript">
+	hs.graphicsDir = 'img/graphics/';
+	hs.wrapperClassName = 'wide-border';
+</script>
 
+<!--------------------End Highslide stuffs----------------------------->
 
 <div id="logo"></div> 
-
 
 <div id="page">
 	<div id="content">
 		<ul class="gallery">
-        	<li><img alt="portfolio" src="img/cat2.jpg"></li>
-            <li><img alt="portfolio" src="img/cat2.jpg"></li>
-            <li><img alt="portfolio" src="img/cat2.jpg"></li>
-            <li><img alt="portfolio" src="img/cat2.jpg"></li>
-            <li><img alt="portfolio" src="img/cat2.jpg"></li>
-            <li><img alt="portfolio" src="img/cat2.jpg"></li>
+        <h1>Welcome to the Gallery! Simply Click an Image to view the full size</h1>
+        <br>
+        <p>Below are some funny/interesting photos that I thought I would add to the gallery.
+       	  <li><a href="img/cat2.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/cat2.jpg"</a></li>
+            <li><a href="img/shake.gif" class="highslide" onclick="return hs.expand(this)"> <img src="img/shake.gif"</a></li>
+            <li><a href="img/cat2.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/cat2.jpg"</a></li>
+            <li><a href="img/cat2.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/cat2.jpg"</a></li>
+            <li><a href="img/cat2.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/cat2.jpg"</a></li>
+            <li><a href="img/cat2.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/cat2.jpg"</a></li>
+            <li><a href="img/cat2.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/cat2.jpg"</a></li>
+            <li><a href="img/cat2.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/cat2.jpg"</a></li>
+            <li><a href="img/cat2.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/cat2.jpg"</a></li>
         </ul>
            <div style="clear: both;">&nbsp;</div>
      </div>
@@ -70,5 +84,8 @@
 	});
 }
 </script>
+
+
+
 </body>
 </html>
