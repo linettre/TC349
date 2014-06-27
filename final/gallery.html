@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>Gallery</title>
-<link href="gallery.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/gallery.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
 
@@ -21,32 +21,35 @@
 		</ul>
 	</div>
 </div>
-<!------------Highslide Javscript stuffs----------------------------->
+
+
 <script type="text/javascript" src="js/hs/highslide.js"></script>
 <script type="text/javascript">
 	hs.graphicsDir = 'img/graphics/';
 	hs.wrapperClassName = 'wide-border';
 </script>
 
-<!--------------------End Highslide stuffs----------------------------->
+
 
 <div id="logo"></div> 
 
 <div id="page">
 	<div id="content">
+    <h1>Welcome to the Gallery! Simply Click an Image to view the full size</h1>
+    <br>
+    <p>Below are some funny/interesting photos that I thought I would add to the gallery.
 		<ul class="gallery">
-        <h1>Welcome to the Gallery! Simply Click an Image to view the full size</h1>
-        <br>
-        <p>Below are some funny/interesting photos that I thought I would add to the gallery.
-       	  <li><a href="img/cat2.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/cat2.jpg"</a></li>
-          <li><a href="img/apple.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/apple.jpg"</a></li>
-            <li><a href="img/shake.gif" class="highslide" onclick="return hs.expand(this)"> <img src="img/shake.gif"</a></li>
-            <li><a href="img/sloth.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/sloth.jpg"</a></li>
-            <li><a href="img/lolwut.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/lolwut.jpg"</a></li>
-            <li><a href="img/seal.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/seal.jpg"</a></li>
-            <li><a href="img/fancy.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/fancy.jpg"</a></li>
-            <li><a href="img/nannerphone.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/nannerphone.jpg"</a></li>
-            <li><a href="img/meat.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/meat.jpg"</a></li>
+     
+        
+       	  <li><a href="img/cat2.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/cat2.jpg" alt="cat"></a></li>
+          <li><a href="img/apple.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/apple.jpg" alt="apple"></a></li>
+            <li><a href="img/shake.gif" class="highslide" onclick="return hs.expand(this)"> <img src="img/shake.gif" alt="cat shake"></a></li>
+            <li><a href="img/sloth.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/sloth.jpg" alt="sloth"></a></li>
+            <li><a href="img/lolwut.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/lolwut.jpg" alt="pear"></a></li>
+            <li><a href="img/seal.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/seal.jpg" alt="pear"></a></li>
+            <li><a href="img/fancy.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/fancy.jpg" alt="fancy cat"></a></li>
+            <li><a href="img/nannerphone.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/nannerphone.jpg" alt="banana phone"></a></li>
+            <li><a href="img/meat.jpg" class="highslide" onclick="return hs.expand(this)"> <img src="img/meat.jpg" alt="meat"></a></li>
         </ul>
            <div style="clear: both;">&nbsp;</div>
      </div>
@@ -55,8 +58,8 @@
 
 	
    
-  <div style="clear: both;">&nbsp;</div> <!--Used W3 schools to figure this out-->
-</div>
+  <div style="clear: both;">&nbsp;</div> 
+
  <script src="http//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/vendor/skrollr.min.js"></script>

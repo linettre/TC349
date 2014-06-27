@@ -101,7 +101,7 @@ body {
 	font-size: 12pt;
 	margin: 20px 0;
 	color: #666666;
-	background-image: url('img/background.png');
+	background-image: url('../img/background.png');
 }
 
 
@@ -211,7 +211,7 @@ h3{
 	width: 1140px;
 	height: 200px;
 	margin: 0 auto;
-	background: url('img/logo.jpg') no-repeat;
+	background: url('../img/logo.jpg') no-repeat;
 	background-size:100% 100%;
 	background-position:center; 
 	height: 157px;
@@ -426,12 +426,18 @@ Modify as content requires.
 		float:none;
 		width:auto;
 	}
+	content{
+		margin:20px;
+	}
 
-
+	/*
 	
+	^^^Tried to fix map, couldn't figure it out. Something with the if statement seems off.
+	*/
 	}
 
     /* Style adjustments for viewports that meet the condition */
+}
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
