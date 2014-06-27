@@ -127,9 +127,10 @@ ul {
 	font-size: 14pt;
 }
 .news p{
-	line-height:35px;
-	font-size:16pt;
-	margin-top:30px;
+	line-height: 35px;
+	font-size: 16pt;
+	margin-top: 30px;
+	text-align: left;
 }
 
 a {
@@ -189,7 +190,7 @@ h3{
 	float: left;
 	height: 25px;
 	padding: 10px 20px 0 20px;
-	font-size: 15;
+	font-size: 15pt;
 	font-weight: bold;
 	color: white;
 }
@@ -517,7 +518,3 @@ Inlined to avoid required HTTP connection: h5bp.com/r
         page-break-after: avoid;
     }
 }
-
-
-
-
