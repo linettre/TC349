@@ -25,10 +25,15 @@ h2 {
 
 	
 
-p, ul {
+ul {
 	margin-top: 25px;
 	line-height: 28px;
 	font-size: 14pt;
+}
+.news p{
+	line-height:35px;
+	font-size:16pt;
+	margin-top:30px;
 }
 
 a {
@@ -201,6 +206,8 @@ h1 a, h2 a, h3 a {
 	border: none;
 	padding-left: 10px;
 	color:white;
+	
 }
+
 
 
