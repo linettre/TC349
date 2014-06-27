@@ -48,7 +48,9 @@ h1 a, h2 a, h3 a {
 	text-decoration: none;
 	color: white;
 }
-
+h3{
+	text-decoration:underline;
+}
 
 #header {
 	width: 1140px;
